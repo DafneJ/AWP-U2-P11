@@ -34,6 +34,10 @@ self.addEventListener('install', (event) => {
       'https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js',
       'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css',
       'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/webfonts/fa-solid-900.woff2',
+      "https://www.gstatic.com/firebasejs/9.13.0/firebase-firestore.js",
+"https://www.gstatic.com/firebasejs/9.13.0/firebase-storage.js",
+      "https://www.gstatic.com/firebasejs/9.13.0/firebase-app.js",
+      "https://cdn-icons-png.flaticon.com/512/3468/3468377.png",
     ]);
   });
 
