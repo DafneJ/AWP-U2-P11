@@ -9,7 +9,7 @@ import {
   updateDoc
 } from "https://www.gstatic.com/firebasejs/9.13.0/firebase-firestore.js";
 import {} from "https://www.gstatic.com/firebasejs/9.13.0/firebase-storage.js";
-import { app } from "/js/firebase.js";
+import { app } from "/AWP-U2-P11/js/firebase.js";
 
 const db = getFirestore(app);
 const modal = document.getElementById("exampleModal");
