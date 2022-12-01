@@ -26,6 +26,9 @@ self.addEventListener('install', (event) => {
       '/AWP-U2-P11/images/icons/android-launchericon-512-512.png',
       '/AWP-U2-P11/manifest.json',
       '/AWP-U2-P11/pages/offline.html',
+      '/AWP-U2-P11/js/app.js',
+      '/AWP-U2-P11/js/firebase-functions.js',
+     '/AWP-U2-P11/js/firebase.js'
     ]);
   });
   const respCacheInmutable = caches.open(INMUTABLE_CACHE_NAME).then((cache) => {
